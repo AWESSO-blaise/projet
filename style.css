@@ -42,7 +42,7 @@ ul li a{
     color: #fff;
     padding: 10px 20px;
     text-transform: uppercase;
-    border: 1px solid #fff;
+    border: 1px solid transparent;
     margin: 10px;
     font-weight: 500px;
     transition: 0.6s ease;
@@ -51,4 +51,37 @@ ul li a{
 ul li a:hover{
     background: #fff;
     color:#000 ;
+}ul li.active a{
+    background: #efff;
+    color:#000 ;
 }
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.Titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Titre h1{
+    color: #efff;
+    font-size: 70px;    
+}
+.Bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Bouton a{
+    color: #efff;
+    text-decoration: none;
+    border: 1px solid #efff;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background: #fff;
+    color:#000 ;
+} 
