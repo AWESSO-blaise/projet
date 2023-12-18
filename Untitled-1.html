@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css2">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="contact">Web Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact Nous</h2>
+        <p>Vous avez une question ou souhaitez travailler avec nous ? N’hésitez pas à nous contacter !</p>
+
+        <form action="submit_form.php" method="post">
+            <label for="name">Votre nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Votre email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Votre  Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Web Agency. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
