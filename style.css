@@ -69,19 +69,4 @@ ul li a:hover{
     color: #efff;
     font-size: 70px;    
 }
-.Bouton{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.Bouton a{
-    color: #efff;
-    text-decoration: none;
-    border: 1px solid #efff;
-    padding: 10px 20px;
-}
-.btn:hover{
-    background: #fff;
-    color:#000 ;
-} 
+
