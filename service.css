@@ -1,0 +1,132 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background-color: aliceblue;
+    margin:0 auto;
+    padding: 0 auto;
+    color: aliceblue;
+}
+header{
+    background-image: url(profissional.jpg);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+h1.titre{
+    font-size: x-large;
+}
+ul.destination li{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin: 12px;
+    padding: 12px;
+
+}
+img{
+    width: 25%; 
+  height: 75%;
+
+}
+/*destination */
+div.destination-item{
+    color: gray;
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    flex: 1 0 29%;
+    background-repeat: no-repeat;
+    position: relative;
+  
+}
+div.destination-item:hover{
+    flex: 1 0 33%;
+    transition: 0.5s all;
+    transform: scale(1.15);
+
+}
+div.dest-groupe{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 20% 0% 20%;
+    position: relative;
+  
+}
+.Barcelone{background: url(f97a2621c8ffc01cfe2b9ba44601cbd5--paintings-on-canvas-oil-on-canvas.jpg);}
+.Dubaï{background: url(Dubai-city-1-995x498.jpg);}
+.Madrid{background: url(R.jpeg);}
+.Munich{background: url(istockphoto-951917136-612x612.jpg);}
+.Paris{background: url(true.jpeg
+    );}
+.Lomé{background: url(ville-de-lome-vue-de-la-place-de-lindependance.webp);}
+
+/*je cré une boite avec overlay ou je met mes composant*/
+.overlay{
+   
+    position: absolute;
+    
+}
+
+/* j'utilise span.nom pour mettre les noms des ville au dessus de ma boite overlay*/
+.nom{
+    color: #373737;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    float: right;
+    padding: 3px;
+    font-size: 20px;
+}
+
+/* j'utilise span.prix pour afficher les differents prix au dessu de l'image de chaque destination */
+span.prix{
+    position: relative;
+    color: white;
+    background-color: #EF8F1D;
+    padding: 2px;
+    font-size: 18px;
+    top: 180px;
+
+}
+/* Formulaire de recherche*/
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: #ffffff;
+    margin: 10px;
+}
+.button{
+    text-align: center;
+    
+}
+
+header form{
+    text-align: center;
+    background-color: orange;
+    padding: 20px;
+}
+
+.form-group label{
+    color: #ffff;
+}
+
+
+.form-group input{
+    margin:5px;
+    padding: 10px;
+}
+.form-group input,select,option{
+    border: none;
+    padding: 5px;
+    background-color: bisque;
+}

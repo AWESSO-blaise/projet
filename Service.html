@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="service.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RESERVATIONS</title>
+</head>
+<body>
+    <header>
+        <!--balise pour le haut de lapage -->
+         <h1 class="titre">RSERVATIONS</h1>
+
+         <!--formulaire de recherche-->
+         <form method="post">
+            <div class="form-group">
+                <label for="Provenance">Ville de depart</label>
+            <input type="text"name="Provenance" id="Provenance" placeholder="Paris,Milan.....">
+
+
+            <label for="Provenance">Ville de d'arrivée</label>
+            <input type="text"name="arrivée" id="arrivée" placeholder="Paris,Milan.....">
+
+            </div>
+
+             <div class="form-group">
+                <label for="départ">Date de départ</label>
+            <input type="date"name="départ" id="départ" value="22/02/2024">
+
+            <label for="Retour">Date de Retour</label>
+            <input type="date"name="Retour" id="Retour" value="22/02/2024">
+
+             </div>
+
+             <div class="form-group">
+                <label for="adulte">nombre d'adulte</label>
+            <select name="adulte" id="adulte">
+                <option selected="selected">0 adulte</option>
+                <option>1 adulte</option>
+                <option>2 adulte</option>
+                <option>3 adulte</option>
+                <option>4 adulte</option>
+            </select>
+
+            <label for="enfant">nombre d'enfant</label>
+            <select name="enfant" id="enfant">
+                <option selected="selected">0 enfant</option>
+                <option>1 enfant</option>
+                <option>2 enfant</option>
+                <option>3 enfant</option>
+                <option>4 enfant</option>
+            </select>
+            <label for="type">Categorie</label>
+            <select name="enfant" id="enfant">
+                <option selected="selected">classe économique</option>
+                <option>Busness class</option>
+            </select>
+            
+             </div>
+            <div class="button">
+                
+             <input  type="submit" name="Lancer la recherche" name="recherche--" id="recherche">
+
+            </div>
+            
+            
+
+            
+         </form>
+         
+         
+    </header>
+    <section id="dest">
+        <ul class="destination">
+            <li>Barcelone-80£</li>
+            <li>Dubaï-300£</li>
+            <li>Mdrid-100£</li>
+            <li>Paris-400£</li>
+            <li>Munich-500£</li>
+            <li>Lomé-1500£</li>
+        </ul>
+    </section>
+    <!--section pour les destinations-->
+    <section id="destination">
+        <div class="dest-groupe ">
+            <!--destionation 1-->
+            <div class="destination-item Barcelone">
+                
+                <div class="overlay">
+                    <span class="nom">Barclone</span>
+                    <span class="prix">Dès 80£</span>
+                </div>
+                
+            </div>
+            <!--destionation 2-->
+            <div class="destination-item Dubaï">
+                
+                <div class="overlay">
+                    <span class="nom">Dubaï</span>
+                    <span class="prix">Dès 300£</span> 
+                </div>
+                
+            </div>
+            <!--destionation 3-->
+            <div class="destination-item Madrid">
+               
+                <div class="overlay">
+                    <span class="nom">Madrid</span>
+                    <span class="prix">Dès 100£</span>
+                </div>
+                
+            </div>
+            <!--destionation 4-->
+            <div class="destination-item Paris ">
+                
+                <div class="overlay">
+                    <span class="nom">Paris</span>
+                    <span class="prix">Dès 400£</span>
+                </div>
+                
+            </div>
+            <!--destionation 5-->
+            <div class="destination-item Munich">
+                
+                <div class="overlay">
+                    <span class="prix">Dès 500£</span>
+                <span class="nom">Munich</span>
+                </div>
+                
+            </div>
+            <!--destionation 6-->
+            <div class="destination-item Lomé">
+                <div class="overlay">
+                    <span class="nom">Lomé</span>
+                    <span class="prix">Dès 1500£</span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+</body>
+</html>
