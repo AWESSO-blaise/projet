@@ -7,14 +7,22 @@ body{
     margin:0 auto;
     padding: 0 auto;
     color: aliceblue;
+<<<<<<< Updated upstream
 }
 header{
     background-image: url(profissional.jpg);
+=======
+    line-height: 2px;
+}
+header{
+    background-image: url(OIP.jpeg);
+>>>>>>> Stashed changes
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-self: center;
     align-items: center;
+<<<<<<< Updated upstream
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +30,12 @@ header{
 }
 h1.titre{
     font-size: x-large;
+=======
+}
+h1.titre{
+    font-size: x-large;
+    text-transform: uppercase;
+>>>>>>> Stashed changes
 }
 ul.destination li{
     color: white;
@@ -39,6 +53,7 @@ img{
 /*destination */
 div.destination-item{
     color: gray;
+<<<<<<< Updated upstream
     width: 250px;
     height: 200px;
     margin-top: 20px;
@@ -129,4 +144,13 @@ header form{
     border: none;
     padding: 5px;
     background-color: bisque;
+=======
+}
+div.dest-groupe{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+>>>>>>> Stashed changes
 }
